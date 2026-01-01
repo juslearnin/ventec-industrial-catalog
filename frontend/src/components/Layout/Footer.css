@@ -1,0 +1,126 @@
+.footer {
+  background: var(--color-bg);
+  border-top: 1px solid var(--color-border);
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr; /* 4 Columns */
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+/* COLUMN 1: BRANDING */
+.footer-brand h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+
+.footer-desc {
+  color: var(--color-secondary);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.trust-badge {
+  display: inline-block;
+  padding: 8px 15px;
+  background: rgba(14, 165, 233, 0.1);
+  color: var(--color-primary);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* COLUMNS 2 & 3: LINKS */
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--color-text);
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: color 0.2s;
+  font-size: 0.95rem;
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+  padding-left: 5px; /* Tiny slide effect */
+}
+
+/* COLUMN 4: CONTACT INFO */
+.contact-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: var(--color-secondary);
+}
+
+.contact-icon {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.contact-text h4 {
+  color: var(--color-text);
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.contact-text p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* COPYRIGHT BAR */
+.footer-bottom {
+  border-top: 1px solid var(--color-border);
+  padding: 30px 20px;
+  text-align: center;
+  color: var(--color-secondary);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr; /* 2 Columns on tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* 1 Column on mobile */
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

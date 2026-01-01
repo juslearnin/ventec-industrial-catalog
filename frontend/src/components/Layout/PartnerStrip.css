@@ -1,0 +1,32 @@
+.partner-strip {
+  width: 100%;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: 20px 0;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+}
+
+.partner-track {
+  display: flex;
+  gap: 80px;
+  animation: scroll 20s linear infinite;
+}
+
+/* Seamless Scrolling Animation */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.partner-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
