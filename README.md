@@ -1,6 +1,6 @@
 <img width="1917" height="817" alt="image" src="https://github.com/user-attachments/assets/b32150da-1f90-4845-8f2a-ffc988207847" />
 <img width="1912" height="816" alt="image" src="https://github.com/user-attachments/assets/f0332ba4-2ce4-43db-a1d5-fc0b5196dc8d" />
-# Comvent Engineering - Project Ventec 🚀
+Comvent Engineering - Project Ventec 🚀
 
 ### 👨‍💻 My First Web Development Internship Project
 
@@ -43,3 +43,4 @@ I built this using the **MERN Stack** to ensure it is fast, scalable, and modern
 ---
 
 Built with ❤️ by Ojas
+
